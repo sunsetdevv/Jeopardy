@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: jeopardy-game;
+    src: url(gyparody-game.ttf);
+}
+
+@font-face {
+    font-family: jeopardy;
+    src: url(gyparody.ttf);
+}
+
+.toprow {
+    border: 5px solid black;
+    padding-top: 15px;
+}
+
+.one {
+    font-size: 28px;
+}
+
+.two {
+    font-size: 35px;  
+}
+
+.three {
+    font-size: 33px;
+}
+
+.four {
+    font-size: 36px;
+}
+
+.five {
+    font-size: 35px;
+}
+
+.six {
+    font-size: 32px;
+    content: "\a";
+    white-space: pre;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto;
+    height: 100px;
+    text-align: center;
+    justify-self: center;
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+    font-family: jeopardy;
+    grid-template-areas:
+    'one two three four five six';
+    background-color: darkblue;
+}
+
+.grid-item {
+    border: 5px solid black;
+    text-align: center;
+    height: 60px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.moneez {
+    display: grid;
+    height: 705px;
+    padding-top: 25px;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    align-items: center;
+    font-size: 50px;
+    color: #ffbb3d;
+    text-shadow: 4px 4px 5px black;
+    row-gap: 45px;
+    font-family: jeopardy-game;    
+    background-color: darkblue;
+}
+
+.dsb {
+    color: black !important;
+    visibility: none !important;
+}
+
+a {
+    color: #ffbb3d;
+}
+
+a:hover {
+    cursor: grab;
+}

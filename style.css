@@ -1,0 +1,21 @@
+@font-face {
+    font-family: jeopardy;
+    src: url(gyparody.ttf);
+}
+
+h1 {
+    font-family: jeopardy;
+    font-size: 100px;
+    text-align: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+}
